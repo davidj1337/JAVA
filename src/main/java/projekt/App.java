@@ -24,6 +24,10 @@ public class App extends Application {
     private final UserRepository userRepository = new UserRepository();
 
 
+    public static void main(String[] args){
+        launch(args);
+    }
+
     @Override
     public void start(Stage primaryStage){
         this.stage = primaryStage;
