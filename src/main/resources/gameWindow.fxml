@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projekt.GameController">
+   <children>
+      <Canvas fx:id="canvas" height="900.0" layoutX="186.0" layoutY="21.0" width="1600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Label fx:id="keysLabel" layoutX="10.0" layoutY="10.0" text="Keys: 0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
